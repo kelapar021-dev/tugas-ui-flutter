@@ -28,7 +28,6 @@ Fitur yang dibuat:
 | CircleAvatar | Foto profil story |
 | Image.asset | Menampilkan gambar |
 | BottomNavigationBar | Navigasi bawah |
-| VideoPlayer | Memutar video story |
 | Padding | Mengatur jarak |
 | Row & Column | Mengatur layout |
 
@@ -36,24 +35,26 @@ Fitur yang dibuat:
 
 ## Screenshot
 
-![Hasil UI](screenshot/hasil_ui.png)
+![UI 1](screenshot/Screenshot%202026-05-20%20000632.png)
+
+![UI 2](screenshot/Screenshot%202026-05-20%20000931.png)
+
+![UI 3](screenshot/Screenshot%202026-05-20%20000941.png)
 
 ---
 
 ## Wireframe
 
-![Wireframe](wireframe/wireframe_foto.jpg)
+![Wireframe](wireframe/Screenshot%202026-05-20%20000736.png)
 
 ---
 
 ## Kesulitan yang Ditemui
 
 Kesulitan yang ditemui saat pengerjaan:
-- Mengatur asset gambar dan video
+- Mengatur asset gambar 
 - Menyesuaikan ukuran gambar agar tidak terpotong
-- Menambahkan video pada story Instagram
 
 Solusi:
 - Menggunakan folder assets
 - Menggunakan BoxFit.fitWidth
-- Menggunakan package video_player
