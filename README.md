@@ -1,20 +1,23 @@
-# Tugas UI/UX Flutter — Instagram
+# Tugas UI/UX Flutter — Instagram UI Clone
 
 ## Identitas
-- Nama: Muhammad Ryan Hidayat
-- 2455201110012
-- Pilihan: B (Instagram)
+- **Nama:** Muhammad Ryan Hidayat
+- **NIM:** (isi NIM kamu)
+- **Pilihan:** B — Instagram
 
 ---
 
 ## Deskripsi Singkat
+
 Project ini merupakan replikasi tampilan aplikasi Instagram menggunakan Flutter.
 
-Fitur yang dibuat:
-- Instagram Stories
-- Home Feed
+Halaman yang dibuat:
+- Home Feed Instagram
+- Story Instagram
 - Bottom Navigation Bar
-- Feed postingan 
+- Feed postingan dengan caption dan jumlah like
+
+Pada project ini digunakan gambar lokal dari folder assets untuk menampilkan foto profil, story, dan postingan.
 
 ---
 
@@ -23,23 +26,29 @@ Fitur yang dibuat:
 | Widget | Fungsi |
 |---|---|
 | Scaffold | Struktur utama halaman |
-| AppBar | Header aplikasi |
+| AppBar | Header aplikasi Instagram |
 | ListView | Menampilkan daftar postingan |
-| CircleAvatar | Foto profil story |
-| Image.asset | Menampilkan gambar |
-| BottomNavigationBar | Navigasi bawah |
-| Padding | Mengatur jarak |
-| Row & Column | Mengatur layout |
+| CircleAvatar | Menampilkan foto profil dan story |
+| Image.asset | Menampilkan gambar dari assets |
+| BottomNavigationBar | Navigasi bawah aplikasi |
+| Padding | Mengatur jarak antar widget |
+| Row & Column | Mengatur layout horizontal dan vertikal |
+| ClipRRect | Membuat sudut gambar melengkung |
+| Text | Menampilkan tulisan |
+| Icon | Menampilkan icon aplikasi |
+| Container | Membungkus dan mengatur tampilan widget |
+| SizedBox | Memberi spasi antar widget |
 
 ---
 
 ## Screenshot
 
-![UI 1](screenshot/Screenshot%202026-05-20%20000632.png)
+### Tampilan Aplikasi
+![Screenshot 1](screenshot/Screenshot%202026-05-20%20000632.png)
 
-![UI 2](screenshot/Screenshot%202026-05-20%20000931.png)
+![Screenshot 2](screenshot/Screenshot%202026-05-20%20000931.png)
 
-![UI 3](screenshot/Screenshot%202026-05-20%20000941.png)
+![Screenshot 3](screenshot/Screenshot%202026-05-20%20000941.png)
 
 ---
 
@@ -51,10 +60,15 @@ Fitur yang dibuat:
 
 ## Kesulitan yang Ditemui
 
-Kesulitan yang ditemui saat pengerjaan:
-- Mengatur asset gambar 
-- Menyesuaikan ukuran gambar agar tidak terpotong
+Beberapa kesulitan yang ditemui saat membuat project ini:
 
-Solusi:
-- Menggunakan folder assets
-- Menggunakan BoxFit.fitWidth
+- Mengatur ukuran gambar agar tidak terpotong
+- Mengatur layout feed Instagram agar mirip dengan aplikasi asli
+- Mengatur asset image pada Flutter
+- Memahami penggunaan ListView dan widget tree
+
+Cara mengatasinya:
+- Menggunakan `BoxFit.fitWidth`
+- Menggunakan `Padding` dan `ClipRRect`
+- Menambahkan asset pada `pubspec.yaml`
+- Membagi tampilan menjadi widget-widget kecil
