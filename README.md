@@ -14,7 +14,7 @@ Fitur yang dibuat:
 - Instagram Stories
 - Home Feed
 - Bottom Navigation Bar
-- Feed postingan dengan foto sendiri
+- Feed postingan 
 
 ---
 
